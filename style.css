@@ -1,0 +1,221 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #FFDAB9;
+    color: #333;
+    line-height: 1.6;
+    
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  /* Navigation Links */
+  .nav-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #0056b3;
+  }
+  
+  /* Home Page */
+  #home-intro {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #home-intro img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* About Us and Contact Us Sections */
+  .section {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .section h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Contact Us - Social Icons */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .social-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Recipe Finder Page */
+  #recipe-finder .search-area {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  #recipe-finder input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #recipe-finder button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #recipe-finder button:hover {
+    background-color: #0056b3;
+  }
+  
+  #recipe-finder .filters {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  #recipe-finder select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Recipe Cards */
+  .recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .recipe-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .recipe-card h3 {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .recipe-card p {
+    margin: 10px;
+    color: #007bff;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ddd;
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-between; /* Adds space between the images */
+    gap: 20px; /* Adds consistent spacing between images */
+}
+
+.home-image {
+    width: 40%; /* Ensures images are the same size */
+    object-fit: cover; /* Maintains aspect ratio */
+    border-radius: 30px; /* Optional: adds rounded corners */
+}
+.navigation-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .navigation-links a {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50; /* Green button color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .navigation-links a:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .navigation-links a:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+  }
+  
